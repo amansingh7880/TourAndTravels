@@ -1,0 +1,130 @@
+A:Link,A:active,A:visited {
+	color:#435345;
+	text-decoration:none;
+	font:bold 11px ms sans serif;
+}
+A:hover {
+	color:royalblue;
+	text-decoration:underline;
+}
+A.caption:Link,A.caption:active,A.caption:visited {
+	color:ivory;
+	text-decoration:none;
+	font:bold 11px ms sans serif;
+}
+A.caption:hover {
+	color:ivory;
+	text-decoration:underline;
+}
+A.cap:Link,A.cap:active,A.cap:visited {
+	color:linen;
+	text-decoration:none;
+	font:bold 11px ms sans serif;
+	display:list;
+	width:170px;
+	border:1px solid #234567;
+	line-height:20px;
+
+}
+A.cap:hover {
+	color:green;
+	border-color:orange;
+	background:oldlace;
+}
+Body {
+	margin:0px;
+}
+Td,TH,P,TT {
+	text-decoration:none;
+	font:bold 11px ms sans serif;
+	color:#234567
+}
+BODY {
+		scrollbar-shadow-color:aliceblue;
+		scrollbar-track-color:#464565;
+		scrollbar-arrow-color:powderblue;
+		scrollbar-highlight-color:aliceblue;
+		scrollbar-base-color:#423424;
+		overflow-Y:auto;
+		overflow-X:hidden;
+}
+TH {
+	color:aliceblue;
+}
+LI {
+	font:bold 11px verdana;
+	padding:2px 5px 2px 5px;
+	list-style-type:square;
+	text-indent:12pt;
+}
+Td.padd {
+		padding:2px 5px 2px 5px;
+}
+INPUT.Global				{
+							border:1px solid steelblue;
+							background:whitesmoke;
+							font:bold 12px tahoma;
+							height:20px;
+							width:400px;
+							color:maroon;
+							}
+BUTTON						{
+							background:#345345;
+							font:bold 12px tahoma;
+							color:aliceblue;
+							cursor:pointer;
+							height:20px;
+							width:110px;
+							-moz-border-radius:20px;
+						}	
+Input.input							{
+							border:1px solid brown;
+							background:floralwhite;
+							font:bold 11px tahoma;
+							height:20px;
+							color:maroon;
+							padding:2px 5px 2px 5px;
+							width:200px;
+							}
+INPUT.check					{
+							width:15px;
+							border:0px;
+							font:bold 11px tahoma;
+							height:20px;
+							color:#234567;
+							background:transparent;				
+						}
+
+FORM,INPUT 						{
+						font:bold 11px tahoma;
+						}
+LI						{
+						list-style-type:square;
+						font:bold 11px tahoma;
+						line-height:12pt;
+						}	
+TEXTAREA					{
+					border:1px solid steelblue;
+					background:whitesmoke;
+					font:bold 11px tahoma;
+					height:70px;
+					color:#234567;
+					width:200px;
+					overflow:auto;
+					}
+h4					{
+					border:1 solid steelblue;
+					color:whitesmoke;
+					background:#234567;
+					-moz-border-radius:20px;
+					width:500px;
+					text-align:center;
+					padding:5px;
+					}
+SELECT {
+			color:gray;
+			height:20px;
+			font:bold 11px tahoma;
+			background:floralwhite;
+	}
+
